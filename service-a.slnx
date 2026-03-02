@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="log-consumer/log-consumer.csproj" Id="8fc0910d-2c8f-4859-8fa9-a2b56cda8e97" />
+  <Project Path="service-a/service-a.csproj" />
+  <Project Path="service-b/service-b.csproj" />
+</Solution>

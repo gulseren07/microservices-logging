@@ -1,0 +1,6 @@
+@log_consumer_HostAddress = http://localhost:5062
+
+GET {{log_consumer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

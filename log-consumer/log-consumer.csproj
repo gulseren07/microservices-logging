@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>log_consumer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="RabbitToElasticWorker.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	  <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+	  <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.13.0" />
+	  <PackageReference Include="Serilog" Version="4.0.0" />
+	  <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
